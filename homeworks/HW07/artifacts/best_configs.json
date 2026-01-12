@@ -1,0 +1,24 @@
+{
+  "S07-hw-dataset-01": {
+    "model": "kmeans",
+    "params": {
+      "k": 2
+    },
+    "selection_criterion": "silhouette"
+  },
+  "S07-hw-dataset-02": {
+    "model": "dbscan",
+    "params": {
+      "eps": 0.5,
+      "min_samples": 10
+    },
+    "selection_criterion": "PCA projection"
+  },
+  "S07-hw-dataset-03": {
+    "model": "kmeans",
+    "params": {
+      "k": 3
+    },
+    "selection_criterion": "silhouette"
+  }
+}
