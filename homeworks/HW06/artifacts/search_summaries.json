@@ -15,7 +15,7 @@
     },
     "best_cv_roc_auc": 0.9250491580899667
   },
-  "HistGradientBoosting": {
+  "Boosting": {
     "best_params": {
       "learning_rate": 0.05,
       "max_depth": null,
